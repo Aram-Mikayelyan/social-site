@@ -1,0 +1,33 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(92, 139, 151);
+  padding: 5px;
+}
+
+.item {
+  margin: 10px;
+}
+
+.item.active {
+  color: white;
+  margin-top: 30px;
+}
+
+.friends {
+  font-size: 40px;
+}
+
+.item a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.item a.active {
+  color: black;
+}
+
+.friendItem {
+  display: flex;
+}
+
